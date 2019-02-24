@@ -1,0 +1,139 @@
+/* global */
+
+body, button, input, select, textarea { font-family: sans-serif; color: #333; font-size: 1em; }
+a { text-decoration: none; display: inline-block; }
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+/* colors */
+.white { color: #fff; }
+.dark-grey { color: #333; }
+.mid-grey { color: #666; }
+.light-grey { color: #999; }
+.bg-white { background-color: #fff; }
+.bg-grey { background-color: #333; }
+.bg-mid-grey { background-color: #666; }
+.bg-light-grey { background-color: #eee; }
+.bg-pink { background-color: #F90637; }
+.bg-green { background-color: #008000; }
+
+/* local */
+.round { 
+  border-radius: 50%; 
+}
+
+.arrowBox { 
+  display: block; 
+  height: 23px; 
+  width: 23px; 
+  text-align: center; 
+  background-color: #fff;  
+}
+
+.arrow {
+  border: solid #333;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 2.8px;
+}
+
+.down {   
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.btn {
+  border-radius: 5%;
+  border: 1px solid #999;
+  padding: 7px 12px;
+  color: #666;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #666;
+}
+
+input[name=search] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 45px;
+}
+
+.seperator {
+  flex: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+
+/* Message Box */
+.msgBox {
+  margin: 0px;
+}
+
+.msgBox__container {
+  height: 100%;
+  max-width: 25rem;
+  max-height: 40rem;
+}
+
+.topBar {
+  padding: 10px;
+  text-align: right;
+  text-align: -webkit-right;
+}
+
+.user {
+  padding: 20px;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.avatarBox {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  padding-right: 20px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.user__nameContainer {
+  width: 100%;
+}
+
+.user__status {
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  margin-top: -18px;
+  margin-left: 28px;
+  border: 1.8px solid #eee;
+}
+
+.user__detail {
+  padding: 2px 0;
+}
+
+.searchBox {
+  padding: 20px;  
+  font: normal normal normal 1rem/1 FontAwesome;
+  font-weight: 900;
+  position: relative;
+}
+
+.searchBox .fa-search { 
+  position: absolute;
+  top: 32px;
+  left: 34px;
+}
